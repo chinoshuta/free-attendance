@@ -1,0 +1,16 @@
+.wrapper {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.menu {
+  width: 332px;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 20px;
+  background: var(--background-gray);
+}
+
+.contents {
+  width: calc(100% - 332px);
+}

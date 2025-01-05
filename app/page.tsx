@@ -1,7 +1,5 @@
-import { getServerSession } from "next-auth";
 import { GoogleButton } from "./_components/Button/GoogleButton";
 import styles from "./page.module.css";
-import { authOptions } from "./utils/auth/config";
 
 export default async function Home() {
   // const session = await getServerSession(authOptions);

@@ -1,9 +1,15 @@
 :root {
   --background-cyan: #e9f7f9;
+  --background-gray: #efefef;
+  --background-gray-bold: #d9d9d9;
   --text: #003741;
   --white: #fff;
 }
 
 body {
   color: var(--text);
+}
+
+a {
+  text-decoration: none;
 }
