@@ -1,19 +1,19 @@
 .wrapper {
   display: flex;
+  width: 100%;
   gap: 24px;
   padding: 16px;
   font-weight: bold;
   font-size: 24px;
-  color: #000;
+  color: var(--white);
+  transition: 0.4s;
 }
 
-.circle {
-  background: var(--background-gray-bold);
-  width: 34px;
-  height: 34px;
-  border-radius: 50%;
+.wrapper:hover {
+  background: #008da6;
 }
 
 .disabled {
   opacity: 0.5;
+  background: none;
 }

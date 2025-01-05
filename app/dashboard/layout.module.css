@@ -8,7 +8,7 @@
   height: 100vh;
   overflow-y: auto;
   padding: 20px;
-  background: var(--background-gray);
+  background: var(--primary);
 }
 
 .contents {

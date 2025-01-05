@@ -1,7 +1,6 @@
 :root {
   --background-cyan: #e9f7f9;
-  --background-gray: #efefef;
-  --background-gray-bold: #d9d9d9;
+  --primary: #008299;
   --text: #003741;
   --white: #fff;
 }
