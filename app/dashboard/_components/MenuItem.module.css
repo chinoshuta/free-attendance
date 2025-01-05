@@ -1,12 +1,13 @@
 .wrapper {
   display: flex;
-  width: 100%;
+  width: auto;
   gap: 24px;
   padding: 16px;
   font-weight: bold;
   font-size: 24px;
   color: var(--white);
   transition: 0.4s;
+  border-radius: 6px;
 }
 
 .wrapper:hover {
