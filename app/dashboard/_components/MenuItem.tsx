@@ -16,14 +16,9 @@ export const MenuItem: React.FC<Props> = ({ href, children, icon }) => {
   const isActive = pathName === href;
   return (
     <Link href={href}>
-      <div className={styles.wrapper}>
-        <Icon
-          className={isActive ? "" : styles.disabled}
-          name={icon}
-          width={24}
-          height={24}
-        />
-        <span className={isActive ? "" : styles.disabled}>{children}</span>
+      <div className={`${styles.wrapper} ${isActive ? "" : styles.disabled}`}>
+        <Icon name={icon} width={24} height={24} />
+        <span>{children}</span>
       </div>
     </Link>
   );

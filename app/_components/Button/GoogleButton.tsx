@@ -1,8 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import styles from "./GoogleButton.module.css";
 import { signIn } from "next-auth/react";
+import { Icon } from "../Icon";
 
 export const GoogleButton: React.FC = () => {
   return (
@@ -12,7 +12,7 @@ export const GoogleButton: React.FC = () => {
         signIn();
       }}
     >
-      <Image src="/google.svg" width={20} height={20} alt="google" />
+      <Icon name="google" width={20} height={20} />
       Continue with Google
     </button>
   );

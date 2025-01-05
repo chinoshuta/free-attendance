@@ -3,13 +3,6 @@
   display: flex;
 }
 
-.menu {
-  width: 332px;
-  overflow-y: auto;
-  padding: 20px;
-  background: var(--primary);
-}
-
 .contents {
   width: calc(100vw - 332px);
 }

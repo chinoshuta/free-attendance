@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import styles from "./layout.module.css";
-import { MenuItem } from "./_components/MenuItem";
+import { SideMenu } from "./_components/SideMenu";
 
 export const metadata: Metadata = {
   title: "フリーランスのための勤怠管理",
@@ -14,17 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <div className={styles.wrapper}>
-      <div className={styles.menu}>
-        <MenuItem icon="clock" href="/dashboard/stamp">
-          勤怠打刻
-        </MenuItem>
-        <MenuItem icon="calendar" href="/dashboard/edit">
-          勤怠管理
-        </MenuItem>
-        <MenuItem icon="project" href="/dashboard/project">
-          プロジェクト管理
-        </MenuItem>
-      </div>
+      <SideMenu />
       <div className={styles.contents}>{children}</div>
     </div>
   );
