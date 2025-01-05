@@ -6,9 +6,9 @@ import { prisma } from "@/prisma";
 export const authOptions: NextAuthOptions = {
   secret: process.env.NEXTAUTH_SECRET,
   debug: true,
-  // pages: {
-  //   signIn: "/",
-  // },
+  session: {
+    strategy: "jwt",
+  },
   adapter: PrismaAdapter(prisma),
   providers: [
     GoogleProvider({

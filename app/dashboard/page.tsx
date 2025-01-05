@@ -1,7 +1,6 @@
-//import styles from "./page.module.css";
+import { redirect } from "next/navigation";
 
 export default async function Home() {
-  // const session = await getServerSession(authOptions);
-  // console.log(session ?? "unauth");
+  redirect("/dashboard/stamp");
   return <></>;
 }
