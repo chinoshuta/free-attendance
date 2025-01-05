@@ -15,9 +15,15 @@ export default function RootLayout({
   return (
     <div className={styles.wrapper}>
       <div className={styles.menu}>
-        <MenuItem href="/dashboard/stamp">勤怠打刻</MenuItem>
-        <MenuItem href="/dashboard/edit">勤怠管理</MenuItem>
-        <MenuItem href="/dashboard/project">プロジェクト管理</MenuItem>
+        <MenuItem icon="clock" href="/dashboard/stamp">
+          勤怠打刻
+        </MenuItem>
+        <MenuItem icon="calendar" href="/dashboard/edit">
+          勤怠管理
+        </MenuItem>
+        <MenuItem icon="project" href="/dashboard/project">
+          プロジェクト管理
+        </MenuItem>
       </div>
       <div className={styles.contents}>{children}</div>
     </div>

@@ -3,19 +3,26 @@
 import Link from "next/link";
 import styles from "./MenuItem.module.css";
 import { usePathname } from "next/navigation";
+import { Icon, IconName } from "@/app/_components/Icon";
 
 type Props = {
   href: string;
   children: string;
+  icon: IconName;
 };
 
-export const MenuItem: React.FC<Props> = ({ href, children }) => {
+export const MenuItem: React.FC<Props> = ({ href, children, icon }) => {
   const pathName = usePathname();
   const isActive = pathName === href;
   return (
     <Link href={href}>
       <div className={styles.wrapper}>
-        <div className={styles.circle} />
+        <Icon
+          className={isActive ? "" : styles.disabled}
+          name={icon}
+          width={24}
+          height={24}
+        />
         <span className={isActive ? "" : styles.disabled}>{children}</span>
       </div>
     </Link>
