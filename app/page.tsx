@@ -4,8 +4,8 @@ import styles from "./page.module.css";
 import { authOptions } from "./utils/auth/config";
 
 export default async function Home() {
-  const session = await getServerSession(authOptions);
-  console.log(session ?? "unauth");
+  // const session = await getServerSession(authOptions);
+  // console.log(session ?? "unauth");
   return (
     <section className={styles.wrapper}>
       <h1 className={styles.title}>フリーランスのための勤怠管理</h1>
