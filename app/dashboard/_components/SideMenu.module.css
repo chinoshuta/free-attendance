@@ -3,4 +3,7 @@
   overflow-y: auto;
   padding: 20px;
   background: var(--primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

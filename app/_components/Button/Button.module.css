@@ -1,6 +1,4 @@
 .wrapper {
-  background: var(--text);
-  color: var(--white);
   padding: 8px 40px;
   font-size: 18px;
   border-radius: 24px;
@@ -12,4 +10,19 @@
   &:hover {
     opacity: 0.5;
   }
+}
+
+.primary {
+  background: var(--text);
+  color: var(--white);
+}
+
+.secondary {
+  background: var(--white);
+  color: var(--text);
+}
+
+.danger {
+  background: var(--white);
+  color: var(--accent-red);
 }

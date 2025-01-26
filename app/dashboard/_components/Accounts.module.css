@@ -1,0 +1,27 @@
+.accounts {
+  display: flex;
+  gap: 16px;
+  margin-top: auto;
+  cursor: pointer;
+  margin: 12px;
+}
+
+.grid {
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  font-size: 12px;
+}
+.title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.noImage {
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  background: #d9d9d9;
+}

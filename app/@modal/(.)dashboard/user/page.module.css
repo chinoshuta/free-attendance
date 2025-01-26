@@ -1,0 +1,21 @@
+.title {
+  font-size: 28px;
+  margin-bottom: 48px;
+}
+
+.email {
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
+  margin-bottom: 80px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+}
+
+.signOut {
+  color: var(--accent-red);
+}
