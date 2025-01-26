@@ -1,7 +1,10 @@
 :root {
   --background-cyan: #e9f7f9;
+  --background-gray: #f7f7f7;
   --primary: #008299;
   --text: #003741;
+  --accent-red: #ec0000;
+  --accent-green: #f3f5f7;
   --white: #fff;
 }
 
@@ -11,4 +14,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
 }

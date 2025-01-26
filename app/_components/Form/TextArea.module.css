@@ -1,0 +1,25 @@
+.wrapper {
+  display: block;
+  margin-bottom: 14px;
+  textarea {
+    width: 100%;
+    background: var(--background-cyan);
+    border: none;
+    padding: 10px 24px;
+    outline: none;
+    border-radius: 10px;
+    resize: none;
+  }
+}
+
+.title {
+  margin: 0 0 6px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.error {
+  color: var(--accent-red);
+  font-size: 14px;
+  margin-top: 6px;
+}
