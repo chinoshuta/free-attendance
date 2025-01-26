@@ -23,6 +23,7 @@ export const TextArea: React.FC<Props> = ({
     <div className={styles.wrapper}>
       <p className={styles.title}>{title}</p>
       <textarea
+        className={styles.textarea}
         value={value}
         name={name}
         placeholder={placeholder}

@@ -18,7 +18,12 @@ export const TextFiled: React.FC<Props> = ({
   return (
     <div className={styles.wrapper}>
       <p className={styles.title}>{title}</p>
-      <input value={value} name={name} placeholder={placeholder} />
+      <input
+        value={value}
+        name={name}
+        placeholder={placeholder}
+        className={styles.input}
+      />
       <p className={styles.error}>{message}</p>
     </div>
   );

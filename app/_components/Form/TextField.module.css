@@ -1,16 +1,16 @@
 .wrapper {
   display: block;
   margin-bottom: 14px;
+}
 
-  input {
-    width: 100%;
-    height: 32px;
-    background: var(--background-cyan);
-    border: none;
-    padding: 10px 24px;
-    outline: none;
-    border-radius: 10px;
-  }
+.input {
+  width: 100%;
+  height: 32px;
+  background: var(--background-cyan);
+  border: none;
+  padding: 10px 24px;
+  outline: none;
+  border-radius: 10px;
 }
 
 .title {
