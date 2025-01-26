@@ -22,8 +22,6 @@ export const Button: React.FC<Props> = ({
   type,
   theme = "primary",
 }) => {
-  console.log(theme);
-  console.log(styles[theme]);
   return (
     <>
       {href && !disabled ? (
